@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    top: 0px;
+    position: sticky;
+
+    background: black;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:3px solid white;
+}
+.c1{
+    width: 35vw;
+    display: flex;
+    justify-content: space-evenly   ;
+}
+.c1 li{
+    list-style: none;
+}
+ a{
+    text-decoration: none;
+    color: white;
+}
+.items h3{
+    padding : 0 1vw;
+}
+
+
+.con1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    color: white;
+}
+.con1 .item1{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.con1 .item1 h1{
+    margin: 10vh 10vw ;
+    font-size: 20vh;
+}
+.con1 .item1 img{
+    border-radius: 5vh;
+    width: 25vw;
+    margin: 30vh 1vw ;
+    margin-bottom: 10vh;
+    margin-right: 5vw;
+}
+.con1 .item2{
+    font-size: 10vh;
+    margin-bottom: 3vh;
+}
+
+.con2{
+    display: flex;
+    margin: 10vh 1vw;
+}
+.con2 .item1{
+    margin-left: 3vw;
+}
+
+
+
+
+
+
+
+form{
+    /* margin-top: 5vh; */
+    display: flex;
+    flex-direction: column;
+    background: black;
+    align-items: center;
+}
+form h1{
+    color: white;
+    font-size: 10vh;
+    margin: 5vh 0;
+    margin-top: 20vh;
+}
+.cl1{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+form input{
+    background: none;
+    color: white;
+    margin: 2vh 0;
+    padding: 2vh 1vw;
+    font-size: medium;
+}
+form button{
+    font-size: medium;
+    padding: 2vh 1vw;
+    border: none;
+    margin: 2vh 0;
+    margin-bottom: 18vh;
+    margin-right: 65vw;
+}
+/* @media screen {
+    Nav{
+        flex-direction: column;
+        font-size: larger;
+    }
+    .c1{
+        flex-direction: column;
+        font-size: large;
+        align-items: center;
+        padding: 1vh 0;
+    }
+} */
