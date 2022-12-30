@@ -56,19 +56,64 @@ nav{
 }
 .con1 .item2{
     font-size: 10vh;
-    margin-bottom: 3vh;
+    margin-bottom: 20vh;
 }
 
 .con2{
     display: flex;
-    margin: 10vh 1vw;
+    /* margin:10vh 1vw; */
+    padding: 0 2vw;
+    padding-top: 20vh;
 }
 .con2 .item1{
     margin-left: 3vw;
 }
+.con2 .item1 h1{
+    font-size: 12vh;
+    margin-bottom: 5vh;
+}
+.con2 .item1 p{
+    font-size: large;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: rgb(55, 55, 55);
+}
+.con2 img{
+    width:60vw;
+    border-radius: 2vh;
+    box-shadow: 20px 15px 20px 5px rgb(55, 55, 55);
+}
 
 
+.con3{
+    padding: 20vh 2vw;
+    padding-top: 20vh;
+}
+.con3 h1{
+    font-size: 12vh;
+    margin-bottom: 5vh;
+}
+.con3 .item1{
+    display: flex;
+    justify-content: space-between;
+}
+.item1 .item{
+    padding: 3vh 2vw;
+    border: 2px solid black;
+    margin: 0px 1vw;
+}
+.item h2{
+    font-size: 5vmin;
+    font-weight: 300;
+    margin-bottom: 2vh;
 
+}
+.item p{
+    font-size: large;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: rgb(55, 55, 55);
+}
 
 
 
@@ -79,12 +124,13 @@ form{
     flex-direction: column;
     background: black;
     align-items: center;
+    padding-top: 10vh;
 }
 form h1{
     color: white;
     font-size: 10vh;
     margin: 5vh 0;
-    margin-top: 20vh;
+    /* margin-top: 10vh; */
 }
 .cl1{
     display: flex;
