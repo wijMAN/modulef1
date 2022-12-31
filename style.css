@@ -175,7 +175,10 @@ form button{
 }
 
 .con1 .item1 h1{
-    animation: fadeIn 2s;
+    /* animation: fadeIn 2s ease-in-out; */
+    animation: fadeIn 2s ease-in;
+    /* animation: fadeIn 2s ease-out; */
+    /* animation: fadeIn 2s ; */
 }
 @keyframes fadeIn{
     from{
