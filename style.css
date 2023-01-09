@@ -176,16 +176,43 @@ form button{
 
 .con1 .item1 h1{
     /* animation: fadeIn 2s ease-in-out; */
-    animation: fadeIn 2s ease-in;
+    animation: fadeIn 15s ease-in-out ;
+    /* animation-delay: 3s; */
+    animation-iteration-count: infinite;
     /* animation: fadeIn 2s ease-out; */
     /* animation: fadeIn 2s ; */
 }
 @keyframes fadeIn{
-    from{
-        opacity: 0;
+    /* from{
+        opacity: 0.8;
     }
     to{
+        opacity: 0;
+    } */
+    0%{
         opacity: 1;
+        color: rgb(94, 255, 0);
+    }
+    20%{
+        /* opacity: 0.5; */
+        color: rgb(255, 153, 0);
+    }
+    40%{
+        /* opacity: 0.3; */
+        color:rgb(175, 29, 114);
+        transform: scale(1.2);
+    }
+    60%{
+        /* opacity: 0.4; */
+        color: rgb(26, 170, 226);
+    }
+    80%{
+        opacity: 1;
+        color: rgb(13, 182, 140);
+    }
+    100%{
+        opacity: 1;
+        color: rgb(94, 255, 0);
     }
 }
 
